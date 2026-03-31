@@ -1,0 +1,262 @@
+@font-face {
+  font-family: "PT Sans", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans Bold", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.page-header {}
+
+.navigation-logo {}
+
+.page-navigation {}
+
+.page-navigation-list {
+  margin: 0;
+  padding: 0;
+  list-style: 0;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+}
+
+.page-navigation-item {}
+
+.page-navigation-link navigation-link-current {}
+
+.page-navigation-link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.page-navigation-user {}
+
+.page-navigation-user-list {
+  margin: 0;
+  padding: 0;
+  list-style: 0;
+}
+
+.page-navigation-user-item {}
+
+.page-navigation-user-link {
+  text-decoration: none;
+
+}
+
+.page-navigation-user-link button button-all {}
+
+.main-index {
+  background-image: url("../images/index-background.jpg") no-repeat top center;
+}
+
+.hero {}
+
+.advantages {}
+
+.block-title {
+  margin: 0;
+  padding: 0;
+  list-style: 0;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.subscribe .block-title {
+  /*color: #FFFFFF; */
+}
+
+
+.advantages-intro {
+  margin: 0;
+  padding: 0;
+  list-style: 0;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #333333;
+}
+
+.advantages-list {
+  margin: 0;
+  padding: 0;
+  list-style: 0;
+}
+
+.advantages-item {}
+
+.block-subtitle {
+  margin: 0;
+  padding: 0;
+  list-style: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.advantages-text {
+  margin: 0;
+  padding: 0;
+  list-style: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #333333;
+}
+
+.services {}
+
+.services-list {
+  margin: 0;
+  padding: 0;
+  list-style: 0;
+}
+
+.services-item {}
+
+.services-text {
+  margin: 0;
+  padding: 0;
+  list-style: 0;
+  margin: 0;
+  padding: 0;
+  list-style: 0;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #333333;
+}
+
+.hotel-search {}
+
+.hotel-search-text {
+  margin: 0;
+  padding: 0;
+  list-style: 0;
+  margin: 0;
+  padding: 0;
+  list-style: 0;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #333333;
+}
+
+.open-modal {}
+
+.open-modal-text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0;
+  text-align: center;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  /*color: #FFFFFF; */
+}
+
+.subscribe {}
+
+.subscribe-text {
+  margin: 0;
+  padding: 0;
+  list-style: 0;
+  margin: 0;
+  padding: 0;
+  list-style: 0;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0;
+  text-align: center;
+  /*color: #FFFFFF; */
+}
+
+.subscribe-form {}
+
+.form-input {}
+
+.button button-primary {}
+
+.subscribe-button-text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  /*color: #FFFFFF; */
+}
+
+.main-footer {}
+
+.social-list {
+  margin: 0;
+  padding: 0;
+  list-style: 0;
+}
+
+.social-item {}
+
+.phone-link {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 0;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+
+}
+
+.logo-link {}
