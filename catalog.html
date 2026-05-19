@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>HTML Academy:Седона.Каталог.</title>
     <link rel="stylesheet" href="styles/styles.css">
-
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
   </head>
 
   <body>
@@ -45,7 +45,7 @@
       </header>
 
       <main class="main-catalog">
-        <header class="catalog-filter-series">
+        <header class="catalog-filter-series" data-test="filter">
           <div class="catalog-hotel">
             <h1 class="catalog-header-title">Гостиницы Седоны</h1>
             <ul class="breadcrumbs">
@@ -134,6 +134,7 @@
                         </button>
                       </div>
                     </div>
+                  </div>
                 </fieldset>
 
                 <div class="grid-element-4">
@@ -141,12 +142,13 @@
                   <button class="button button-filter reset" type="reset">Сбросить</button>
                 </div>
               </form>
+            </section>
           </div>
-          </section>
+
         </header>
-        <section>
+        <section class="search-result" data-test="catalog>
           <div class="filter">
-            <h2 class="block-title result">Найдено гостиниц:&nbsp;38</h2>
+            <h2 class="block-title result">Найдено гостиниц: 38</h2>
             <select class="select-control" name="catalog-filter-sort" aria-label="Сортировка">
               <option value="cheaper price">Сначала дешевые</option>
               <option value="expensive">Сначала дорогие</option>
@@ -292,7 +294,7 @@
             </li>
           </ul>
         </section>
-        <section class="subscribe catalog">
+        <section class="subscribe catalog" data-test="subscribe>
           <h2 class="block-title subscribe-title-catalog">Подпишитесь на рассылку</h2>
           <p class="subscribe-text-catalog">Только полезная информация и никакого спама, <br> честное бойскаутское!</p>
           <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
@@ -303,7 +305,7 @@
         </section>
       </main>
 
-      <footer class="main-footer">
+      <footer class="main-footer" data-test="footer">
         <div class="footer-container">
 
           <ul class="social-list">
